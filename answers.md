@@ -30,12 +30,12 @@ command:
 command:
 
 ## 2.8
-question:
+question: 
 output:
 
 ## 3.1
-command:
+command: docker-compose up
 
 ## 3.4
-command:
-command:
+command: docker-compose up -d --restart:always 
+command: docker-compose logs arturotucan/webrepo:app
