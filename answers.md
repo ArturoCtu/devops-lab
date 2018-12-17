@@ -30,8 +30,14 @@ command:
 command:
 
 ## 2.8
-question: 
-output:
+question: You open the terminal inside of the container in question and run a bash with the "cat /etc/*release"
+output: 
+PRETTY_NAME="Debian GNU/Linux 9" 
+NAME="Debian GNU/Linux" VERSION_ID="9" 
+VERSION="9 (stretch)" 
+ID=debian HOME_URL="https://www.debian.org/" 
+SUPPORT_URL="https://www.debian.org/support" 
+BUG_REPORT_URL="https://bugs.debian.org/"
 
 ## 3.1
 command: docker-compose up
