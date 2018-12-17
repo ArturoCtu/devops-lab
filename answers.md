@@ -23,11 +23,12 @@ command: docker run --rm -e MYSQL_HOST='localhost' -e MYSQL_USER='root' -e MYSQL
 command: docker run -d -e MYSQL_HOST='localhost' -e MYSQL_USER='root' -e MYSQL_PASSWORD='' -e MYSQL_DATAQL_PORT='3306' -p 3000:3000 arturotucan/webrepo:app
 
 ## 2.7
-question:
-question:
-command:
+question: the name of the container is arturotucan/webrepo:app and we know this because we can use the command "docker stats" which give us the information about the current container.
+question: We can rename it to have a name that we can identify better with our container. 
+command: docker container ls --all 
 
-command:
+command:  docker rename arturotucan/webrepo:app zoomanage
+
 
 ## 2.8
 question: You open the terminal inside of the container in question and run a bash with the "cat /etc/*release"
